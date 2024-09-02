@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: '#e5edf5';
+}
+
+#tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 0.4rem;
+    background: #fff;
+    color: #313639;
+    border: 1px solid #313639;
+    border-radius: 2px;
+    pointer-events: none;
+    font-size: 1rem;
+  }
+
+  span {
+    font-weight: 600;
+  }
+
+  svg {
+    margin: auto;
+    display: block;
+    font: 11px sans-serif; 
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .bar:hover {
+    opacity: 0.7;
+  }
+
+  .author  {
+    font-size: 12.5px;
+    font-family: Monospace, sans-serif;
+    fill: rgb(80, 80, 148);
+  }
+
+  .author:hover {
+    fill: blue;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(115, 115, 141);
+  }
+  
+  a:hover {
+    color: blue;
+  }
+
+  #legend-axis {
+    font-size: 12.5px;
+    font-weight: 600;
+  }
